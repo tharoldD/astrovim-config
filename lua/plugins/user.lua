@@ -87,15 +87,16 @@ return {
     event = "VeryLazy",
     opts = {
       enabled = true,
-      message_template = " <summary> • <date> • <author> • <<sha>>",
+      message_template = " <author> • <date> • <summary>",
       date_format = "%m-%d-%Y %H:%M:%S",
       virtual_text_column = 1,
-    }
+    },
   },
   {
-    "tpope/vim-surround", lazy = false
+    "tpope/vim-surround",
+    lazy = false,
   },
   {
-    "tpope/vim-repeat"
-  }
+    "tpope/vim-repeat",
+  },
 }
