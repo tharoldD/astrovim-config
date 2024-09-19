@@ -34,6 +34,8 @@ return {
         cursorcolumn = true, -- highlights column that cursor is in
         undofile = true, -- saves undo to file so undo persists between sessions
         showmatch = true, -- highlights matching parenthesis/brackets
+        scrolloff = 999, -- sets min no. screen lines above & below cursor
+        sidescrolloff = 999, -- sets min. no. screen lines left & right of cursor
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
