@@ -47,7 +47,7 @@ return {
         undofile = true,
         showmatch = true,
         scrolloff = 999,
-        sidescrolloff = 999,
+        -- sidescrolloff = 999,
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
